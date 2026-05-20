@@ -1,0 +1,27 @@
+# Core HTTP + GitHub
+requests==2.31.0
+
+# Environment variable loading
+python-dotenv==1.0.1
+
+# Diff parsing (parses git unified diffs)
+unidiff==0.7.5
+
+# Fuzzy string matching (for tolerant text comparison)
+rapidfuzz==3.9.6
+
+# Webhook server
+flask==3.0.3
+
+# Google Cloud Vertex AI SDK
+# google-cloud-aiplatform==1.71.1
+
+# Local LLM client (temporary; remove once Vertex AI integration is finalized)
+ollama==0.3.3
+
+# Resilient retries for outbound HTTP calls (GitHub, etc.)
+tenacity==9.0.0
+
+# JWT signing for GitHub App authentication (RS256 -> uses cryptography)
+pyjwt[crypto]==2.9.0
+
